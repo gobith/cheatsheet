@@ -1,3 +1,6 @@
+"
+comment
+"
 Class {
 	#name : #GeoCheatsheet,
 	#superclass : #Object,
