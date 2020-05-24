@@ -7,7 +7,10 @@ Class {
 { #category : #baselines }
 BaselineOfGeoCheatsheet >> baseline: spec [
 	<baseline>
-	spec for: #common do: [ spec package: 'Geo Cheatsheet' ]
+	spec
+		for: #common
+		do: [ self setUpDependencies: spec.
+			spec package: 'Geo Cheatsheet' ]
 ]
 
 { #category : #baselines }
