@@ -12,4 +12,6 @@ GeoCheatsheet >> doIt [
 
 { #category : #tests }
 GeoCheatsheet >> test [
+
+	"this is a test"
 ]
